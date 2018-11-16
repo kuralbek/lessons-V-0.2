@@ -141,6 +141,29 @@ btn.addEventListener('click', ()=>{
 })
 
 
+new Vue({
+  el:'#courses',
+data: {
+  cours: [
+    {
+      id: 1,
+      title: 'Fitnes',
+      price: 1500,
+      discription: 'Подходит для новичков, увеличивает общий тонус здоровья.',
+      imgUrl: 'http://www.epufloor.com/wp-content/uploads/2017/11/GYM7-350x350.jpg',
+    },
+    {
+      id: 2,
+      title: 'Yoga',
+      price: 1200,
+      discription: 'Развитие растяжки и гибкости тела.',
+      imgUrl: "https://images.pexels.com/photos/868757/pexels-photo-868757.jpeg?auto=compress&cs=tinysrgb&h=350&w=350",
+    },
+  ]
+}
+});
+
+
 
 
 
